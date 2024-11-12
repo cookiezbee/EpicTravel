@@ -1,0 +1,133 @@
+/* Tablet */
+@media (max-width: 1199px) {
+    .container {
+        width: 768px;
+    }
+
+    .container.container-small {
+        width: 768px;
+    }    
+
+    .desktop-only {
+        display: none !important;
+    }
+
+    .title-1 {
+        font-size: 38px;
+    }
+
+    /* Nav */
+
+    .nav-list {
+        gap: 30px;
+    }
+
+    /* Promo */
+
+    .promo {
+        padding-left: 20px;
+        height: 350px;
+        border-radius: 20px;
+    }
+
+    .promo-title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .promo-text {
+        font-size: 18px;
+    }
+
+    /* Main content */
+
+    .main-content {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .content-row {
+        align-items: flex-start;
+        column-gap: 30px;
+    }
+
+    .content-img {
+        /* width: 354px; */
+        /* flex-shrink: 0; */
+        border-radius: 20px;
+    }
+
+    .content-text {
+        row-gap: 10px;
+    }
+
+    .content-img, .content-text {
+        flex: 1;
+    }
+
+    .content-text p {
+        font-size: 14px;
+    }
+
+    /* Inner page */
+
+    .inner-page {
+        padding: 60px 0;
+    }
+
+    .inner-page-title-wrapper {
+        margin-bottom: 40px;
+    }
+
+    /* Cards */
+
+    .cards-wrapper {
+        row-gap: 40px;
+    }
+
+    .card {
+        width: 354px;
+    }
+
+    /* Article */
+
+    .article-content p {
+        font-size: 16px;
+    }
+
+    /* Contacts */
+
+    .contacts-columns {
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        gap: 40px;
+    }
+
+    /* Form */
+
+    .form-wrapper {
+        width: 100%;
+    }
+
+    /* Address */
+
+    .address-wrapper {
+        gap: 40px;
+        width: 100%;
+    }
+
+    /* Footer */
+
+    .footer {
+        padding: 40px 0;
+    }
+
+    .footer-row {
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+    }
+    
+    .footer-contacts {
+        text-align: left;
+    }
+}
